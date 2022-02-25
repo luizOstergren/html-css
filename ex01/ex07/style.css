@@ -1,0 +1,26 @@
+@charset "UTF-8";  /*nao é necessario, somente para permitir que use todos os caracteres, mas ja ta incluso*/
+
+body{
+    background-color: white;
+    font-family: Arial, Arial, Helvetica, sans-serif;    
+}
+h1#principal{
+text-align: justify;       
+font-style: italic;
+}
+h1#secundario{
+    text-align: center;
+}
+h1.secundario{
+text-align: right;
+
+}
+
+/*
+@ no css é uma funçao
+id se usa o #, nao necessariamente tem que colocar o h1 na frente. ele é unico
+class se usa o ., nao necessariamente tem que colocar o h1 na frente. ele pode conter mais de um elemento.
+identificar as cores pelo color.adobe
+pode ter mais de uma classe no mesmo trecho, so separa por um espaço.ex: class: "principal secundario"
+id sobrepoe class, ha uma hierarquia
+*/

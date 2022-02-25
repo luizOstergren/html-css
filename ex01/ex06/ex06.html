@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias dinamicas</title>
+</head>
+<body>
+    <h1>midias em html</h1>
+    <p>teste de tamanho de imagens em tamanho de janelas distintas</p>
+    <picture>
+        <source media="(min-width: 750px)" srcset="imagem pequena" type="image/png">
+        <source media="(1050)" srcset="imagem media" type="image/png"> <!--no srcset colocar o nome da pasta da imagem-->
+        <img src="foto imagem grande" alt="imagem flexivel">
+    </picture>
+
+    <h1>reproduzindo audio</h1>
+    <audio src="audio/Chapeleiro - disco voador video chaves edit by bomber.mp3" controls autoplay></audio>
+    <audio preload="metadata" autoplay controls loop> <!-- preload vai carregar o arquivo em auto, meta ira so baixar as informaçoes e none nao vai carregar nada. quando tem muitos arquivos ou mt pesados, isso pode interferir na velocidade do seu site-->
+        <source src="audio/Chapeleiro - disco voador video chaves edit by bomber.mp3" type="audio/mpeg">
+    </audio> <!-- outra forma para acessar o audio-->
+
+    <h1>inserindo videos</h1>
+        <video width="300px" controls poster="colocar um post para ficar antes do video"> 
+            <source src="nome do arquivo" type="tipo do arquivo">
+            <source src="midia/videotal" type="video/mp4">  <!--exemplo-->
+            <p>seu computador nao tem compatibilidade com nenhum tipo de video</p>
+        </video>
+
+            <h1>inserindo videos do youtube</h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <!-- assim voce estara usando os dados do youtube e deixando seu site mais leve, alem de pagar menos pela hospedagem. compartilhar-incorporar -->
+</body>
+</html>

@@ -1,0 +1,90 @@
+
+
+/* *{          <!-- serve para selecionar tudo-->
+            padding: 0px;
+            margin: 0px;
+        }
+
+        :root{
+            --color: #f55f5432;
+        }
+        */
+        body{
+            background-color: rgb(37, 95, 37);
+           }
+            header{
+                background-color: rgb(6, 187, 6);
+                padding: 30px;
+                color: white;
+                margin: auto;
+            }
+            header > h1{
+                text-align: center;
+                font-size: 3em;
+            }
+            header > p{
+                text-align: center;
+                font-size: 1.2em;
+            }
+            header > a{
+                text-decoration: none;
+                color: white;
+                padding: 10px;
+                font-weight: bolder;
+            }
+            a:hover{
+            background-color: greenyellow;
+        }  
+
+        img{
+            width: 100%;
+            }
+        
+        #android{
+            max-width: 400px;
+        }
+        
+        iframe{
+            width: 100%;
+            }
+        
+        section{
+            background-color: white;
+            color: black;
+            text-align: justify;
+            max-width: 800px;
+            min-width: 320px;
+            border-radius: 5px;
+            margin: auto;
+            padding: 10px;
+            padding-bottom: 30px;
+        }       
+
+        article{
+            margin: 15px 0px;
+            text-indent: 30px;
+        }
+        
+        h2{
+            background-color: green;
+            color: lightgreen;
+        }
+        div{
+            text-align: center;
+        }
+        #extra{
+            background-color: rgb(159, 206, 88);
+            border-radius: 15px;
+        }
+        #extra > ul{
+            list-style-position: inside;
+            columns: 2;
+            list-style-type: '\2714'; /*colocando o check no lugar da bolinha*/
+           }
+        h3{
+            background-color: green;
+        }
+
+        footer{
+            text-align: center;
+        }

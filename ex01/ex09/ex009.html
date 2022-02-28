@@ -8,11 +8,18 @@
     <style>
         body{
             height: 100vh;
-            background-color: black;
+           /* background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-position: no-repeat;
-            background-size: cover; /*pode usar o auto, contain, vai depender da aplicação*/
+            background-size: cover; pode usar o auto, contain, vai depender da aplicação
+            background-attachment: fixed; */
+
+            /*Shorthand - background
+            color > image > position > repeat > (size) > attachment 
+            colocando deste jeito nao precisa escrever todas as linhas acima*/
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
 
         main{

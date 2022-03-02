@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(187, 187, 187);
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    margin: auto;
+    padding: 20px;
+
+    border-radius: 0px 0px 10px 10px;
+    background-color: rgb(168, 167, 167);
+}
+header > h1{
+    text-align: center;
+    font-size: 2em;
+}
+header > h2{
+    text-align: center;
+    font-size: 1.1em;
+}
+header > span{
+    margin: 10px;
+    font-size: 0.9em;
+    
+}
+span:hover{
+    background-color: rgba(75, 73, 73, 0.5);
+    text-decoration: underline;
+}
+section{
+    text-align: center;
+    max-width: 900px;
+    min-width: 320px;
+    background-color: rgba(179, 54, 54, 0.219);
+    padding: 15px 0px;
+    border-radius: 10px;
+    margin: auto; /*centraliza o texto*/
+}        
+article{
+    text-align: justify;
+    line-height: 1.2em;
+    padding-inline-start: 1em;
+    text-indent: 30px; /*Espçamento no comeco do paragrafo*/
+}
+iframe{
+    width: 98%;
+
+}
+image{
+    width: 100%;
+}
+div#ff{
+    background-image: url('/ex01/exercicio5/imagens/background002.jpg');
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+div#contain{
+    overflow: auto;
+}
+#texto{
+    background-color: rgba(0, 0, 0, 0.185);
+    width: 200px;
+    color: rgba(255, 255, 255, 0.884);
+}
+table{
+    border-collapse: collapse;
+    width: 500px;
+    position: relative;
+    text-align: center;
+
+}
+td, th{
+    border: 2px solid black;
+    padding: 7px;
+}
+thead > tr > th{
+    position: sticky;
+    top: 0;
+    background-color: rgb(146, 146, 97);
+}
+tbody > tr:nth-child(2n-1){
+    background-color: rosybrown;
+}
+footer{
+    text-align: center;
+    background-color: gray;
+    padding: 1px;
+}

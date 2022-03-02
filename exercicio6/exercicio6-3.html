@@ -18,11 +18,26 @@
             padding: 10px;
             text-align: center;
         }
+        .nome{
+            background-color: blueviolet;
+        }
+        .dado{
+            background-color: gray
+        }
+        div#contain{
+            overflow: auto;  /*a rolagem lateral so fica na tabela, sem mover o texto a mais do site*/
+        }
+        
     </style>
 </head>
 <body>
     <h1>Exercicio de Tabelas</h1>
+    <div id="contain">
     <table>
+        <colgroup> <!--modificando colunas-->
+        <col class="nome" span="2"> 
+        </colgroup>
+        <col class="dado" span="3"> 
         <caption><strong>Filmes Favoritos</strong> </caption>
         <thead>
             <tr>
@@ -77,6 +92,6 @@
             </tr>
         </tbody>
     </table>
-
+</div>
 </body>
 </html>

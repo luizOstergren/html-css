@@ -1,3 +1,15 @@
+/*
+display: flex; para deixar os itens na mesma linha
+justify-containe: space-between; para deixar os itens em extremidades
+
+tamnaho fonte, divide pelo numero de pixels (16) ai colocar o valor rem
+
+variaveis-  
+--variave(cor, tamnaho...)
+var(--variavel)
+*/
+
+
 body{
     background-color: rgb(187, 187, 187);
     padding: 0px;

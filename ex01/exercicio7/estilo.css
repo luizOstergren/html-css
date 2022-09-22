@@ -5,7 +5,7 @@ justify-containe: space-between; para deixar os itens em extremidades
 tamnaho fonte, divide pelo numero de pixels (16) ai colocar o valor rem
 
 variaveis-  
---variave(cor, tamnaho...)
+--variavel(cor, tamnaho...)
 var(--variavel)
 */
 
